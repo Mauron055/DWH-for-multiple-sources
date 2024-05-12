@@ -3,7 +3,7 @@ from airflow.decorators import dag, task
 from config_const import ConfigConst 
 from lib import ConnectionBuilder
 
-from cdm.settlement_report import SettlementReportLoader
+from cdm.courier_loader import SettlementReportLoader
 from cdm.schema_init import SchemaDdl
 
 
